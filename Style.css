@@ -3,33 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 header{
+    height: 70px;
     display: flex;
     background-color: rgb(86, 209, 231);
     align-items: center;
-    /* justify-content: space-around; */
-    gap: 200px;
-}
-.nav ul li{
-    display: inline;
-    text-decoration: none;
-    align-items: center;
-    align-self: auto;
-    align-content: end;
+    justify-content: space-between;
+    /* gap: 200px; */
+    /* max-width: 100%; */
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 100;
     
 }
-.nav ul li a{
+.nav a{
     text-decoration: none;
     /* font-size: 15px; */
     text-transform: uppercase;
-    
+    margin: 30px;
     color: black;
 }
 .left .logo img{
-    height: 50px;
+    height: 100px;
     width: 100px;
-    align-items: center;
+    /* align-items: center; */
 }
 .left{
     width: 300px;
@@ -37,4 +42,76 @@ header{
     justify-content: space-around;
     align-items: center;
     text-transform: uppercase;
+    /* margin-left: -200px; */
+}
+
+.hum{
+    /* display: none; */
+    /* visibility: hidden; */
+    margin-right: 20px;
+}
+
+.home{
+    background-image: url('pic/school.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin-top: 50px;
+    height: 800px;
+    max-width: 100%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .contain h1{
+    font-size: 50px;
+    color: rgb(78, 237, 255);
+    padding: 20px;
+}
+.home .contain p{
+    font-size: 30px;
+    color: #07ff51;
+    padding: 20px;
+}
+.home .contain button{
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.home .contain button:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+
+}
+.home .contain button:focus{
+    outline: none;
+}
+
+.home .contain button{
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    
+}
+
+.brand{
+    font-size: 20px;
 }

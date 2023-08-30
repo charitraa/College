@@ -5,3 +5,6 @@ document.querySelector('.hum').onclick = () => {
 
   nav.classList.toggle('active')
 }
+window.onscroll = () => {
+  nav.classList.remove('active')
+}

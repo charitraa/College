@@ -2,11 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -32,7 +31,7 @@ header{
     color: black;
 }
 .left .logo img{
-    height: 100px;
+    height: 90px;
     width: 100px;
     /* align-items: center; */
 }
@@ -68,12 +67,13 @@ header{
 }
 .home .contain h1{
     font-size: 50px;
-    color: #25aae1;
+    color: #2f00ff;
     padding: 20px;
 }
 .home .contain p{
     font-size: 30px;
-    color:  #40e495;
+    color: green;
+    font-weight: 600;
     padding: 20px;
 }
 .home .contain button{
@@ -126,5 +126,11 @@ header{
     }
     .home .contain button{
         width: 100px;
+    }
+    .home{
+        height: 670px;
+    }
+    .home .contain{
+        margin-top: 200px;
     }
 }

@@ -72,7 +72,7 @@ header{
 }
 .home .contain p{
     font-size: 30px;
-    color: green;
+    color: rgb(5, 255, 5);
     font-weight: 600;
     padding: 20px;
 }
@@ -123,6 +123,7 @@ header{
     }
     .home .contain p{
         font-size: 20px;
+        color: green;
     }
     .home .contain button{
         width: 100px;

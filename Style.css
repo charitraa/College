@@ -13,8 +13,8 @@ header{
     display: flex;
     background-color: rgb(86, 209, 231);
     align-items: center;
-    justify-content: space-between;
-    /* gap: 200px; */
+    /* justify-content: space-between; */
+    gap: 150px;
     /* max-width: 100%; */
     position: fixed;
     left: 0;
@@ -30,6 +30,12 @@ header{
     margin: 30px;
     color: black;
 }
+.nav a:hover{
+    border-bottom: 0.5px black solid;
+    letter-spacing: 1px;
+    transition:0.5s ease-in-out;
+}
+
 .left .logo img{
     height: 90px;
     width: 100px;
@@ -45,7 +51,7 @@ header{
 }
 
 .hum{
-    /* display: none; */
+    display: none;
     /* visibility: hidden; */
     margin-right: 20px;
 }
@@ -134,7 +140,7 @@ header{
     .home .contain{
         margin-top: 200px;
     }
-    header .nav{
+    .nav{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -147,8 +153,13 @@ header{
         width: 130px;
         background-color:rgb(86, 209, 231);
         font-size: 18px;
+        transition: 0.5s ease-out;
     }
-    header .nav .active{
+    .active{
         right: 0;
+    }
+    .hum{
+        display: inline-block;
+        
     }
 }

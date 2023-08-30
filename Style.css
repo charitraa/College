@@ -134,12 +134,21 @@ header{
     .home .contain{
         margin-top: 200px;
     }
-    header nav{
+    header .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
         position: absolute;
-        top: 100%;
-        right: 100%;
-        background-color: #25aae1;
-        width: 200px;
-        height: 500px;
+        top: 70px;
+        right: -100%;
+        padding: 10px;
+        height: 400px;
+        width: 130px;
+        background-color:rgb(86, 209, 231);
+        font-size: 18px;
+    }
+    header .nav .active{
+        right: 0;
     }
 }

@@ -192,7 +192,8 @@ header{
     text-align: center;
     color: #25aae1;
 }
-.subject .sub{
+.subject .sub , .over{
     margin-left: 20px;
     margin-top: 10px;
+    font-weight: bold;
 }

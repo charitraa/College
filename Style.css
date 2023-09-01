@@ -218,7 +218,7 @@ ul, ol{
 ul li, ol li{
     margin-top: 10px;
 }
-.form h2{
+.form h1{
     text-align: center;
     color: #25aae1;
 
@@ -227,4 +227,14 @@ ul li, ol li{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    /* align-items: center; */
+}
+
+.sname,.fname,.mname,.gender,.date,.ads,.phone,.certi{
+    font-size: 20px;
+    margin: 20px;
+}
+input{
+    
+    height: 30px;
 }

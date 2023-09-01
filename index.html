@@ -181,7 +181,19 @@
         </div>
 
     </section>
-    <script src="toggle.js"></script>
+    <script>
+        let nav = document.querySelector('.nav')
+
+        document.querySelector('.hum').onclick = () => {
+            console.log('hello')
+
+            nav.classList.toggle('active')
+        }
+        window.onscroll = () => {
+            nav.classList.remove('active')
+        }
+
+    </script>
     <script src="https://kit.fontawesome.com/49b6b027f2.js" crossorigin="anonymous"></script>
 
 </body>

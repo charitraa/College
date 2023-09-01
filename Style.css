@@ -281,3 +281,60 @@ input{
 .form{
     height: 800px;
 }
+.icon{
+    background-color: #8fc7df;
+    height: 100px;
+    width: 100px;
+
+}
+.get{
+    height: 600px;
+}
+.detail{
+    height: 500px;
+}
+.get h1{
+    font-size: 20px;
+    color: #25aae1;
+    text-align: center;
+    
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.address{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    align-items: center;
+}
+
+
+.place p{
+    margin-top: 10px;
+}
+.change{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fa-regular{
+        margin-top: 30px;
+    margin-left: 30px;
+}
+.to{
+    margin-left: -10px;
+}
+.www{
+    margin-left: -20px;
+}
+
+.jes{
+    margin-left: -10px;
+}

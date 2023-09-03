@@ -1,4 +1,6 @@
- * {
+/* this website is only for redmi phone or for max-width 360 */
+
+* {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
